@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    display: flex;
+    background-color: rgb(7, 54, 126);
+    color: white;
+
+    padding: 2rem;
+}
+
+footer {
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.attention-grabber {
+    background-color: rgb(39, 86, 155);
+    padding: 4rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.attention-grabber-text {
+    width: 26rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.attention-grabber-text button {
+    width: 6rem;
+    padding: 0.25rem;
+}
+
+.random-info {
+    padding: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.random-info-pics {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.quote {
+    background-color: rgb(231, 229, 229);
+    padding: 8rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.call-to-action {
+    background-color: rgb(50, 86, 247);
+    padding: 4rem 6rem;
+    width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+
+    display: flex;
+    flex-direction: center;
+    gap: 6rem;
+}
+nav {
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
